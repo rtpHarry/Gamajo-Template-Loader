@@ -44,7 +44,7 @@ or:
   ~~~php
   $data = array( 'foo' => 'bar', 'baz' => 'boom' );
   $meal_planner_template_loader
-      ->set_template_data( $data );
+      ->set_template_data( $data )
       ->get_template_part( 'recipe' );
   ~~~
   
